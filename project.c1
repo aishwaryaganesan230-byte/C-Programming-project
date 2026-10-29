@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+int a;
+int b;
+char ch;
+scanf("%f %c %f",&a,ch,&b);
+switch (ch)
+{
+case '+':
+{
+printf("ADDITION:%f",a+b);
+break;
+}
+case '_':
+{
+printf("SUBRACTION:%f",a-b);
+break;
+}
+case '*':
+{
+printf("MULTIPLICATION:%f",a*b);
+break;
+}
+case '/':
+{
+printf("DIVISION: %f",a/b);
+break;
+}
+default:
+{
+printf("invalid operation");
+}
+}
+return 0;
+}
